@@ -26,6 +26,7 @@ public class iSpyT_Main: MonoBehaviour {
 
 	public GameObject[] obj_Reset_color;
 	public GameObject[] obj_Reset_grayscale;
+	public GameObject G_final;
 
 
 	void Start()
@@ -103,6 +104,11 @@ public class iSpyT_Main: MonoBehaviour {
 				G_5.SetActive(true);
 				change();
 			}
+
+			if(answer_count == 5)
+            {
+				G_final.SetActive(true);
+            }
 
 		
 		}

@@ -21,6 +21,7 @@ public class iSpyS_Main: MonoBehaviour {
 	public Text objname;
 	public Text count;
 	public int answer_count;
+	public GameObject G_final;
 	
 	
 
@@ -82,6 +83,10 @@ public class iSpyS_Main: MonoBehaviour {
 				G_5.SetActive(true);
 				change();
 			}
+			if(answer_count == 5)
+            {
+				G_final.SetActive(true);
+            }
 		}
 		
 	}

@@ -20,6 +20,7 @@ public class iSpyP_Main: MonoBehaviour {
 
 	public GameObject blur;
 	public Text objname;
+	public GameObject G_final;
 
 	//public GameObject lvlcmp;
 	//public Text gem;
@@ -103,6 +104,10 @@ public class iSpyP_Main: MonoBehaviour {
 				G_5.SetActive(true);
 				change();
 			}
+			if(answer_count == 5)
+            {
+				G_final.SetActive(true);
+            }
 
 		
 		}
