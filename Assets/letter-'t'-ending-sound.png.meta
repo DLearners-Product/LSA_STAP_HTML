@@ -1,0 +1,1124 @@
+fileFormatVersion: 2
+guid: 482b8e81dba6247a2962d3e7b5dcbbdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3237810436953809171
+    second: letter-'t'-ending-sound_0
+  - first:
+      213: 5355723195471845874
+    second: letter-'t'-ending-sound_1
+  - first:
+      213: 3762960094726016355
+    second: letter-'t'-ending-sound_2
+  - first:
+      213: -858494175338107504
+    second: letter-'t'-ending-sound_3
+  - first:
+      213: -6785936412878674478
+    second: letter-'t'-ending-sound_4
+  - first:
+      213: 7585290081425860550
+    second: letter-'t'-ending-sound_5
+  - first:
+      213: 2995474946390843498
+    second: letter-'t'-ending-sound_6
+  - first:
+      213: 3316863067687024279
+    second: letter-'t'-ending-sound_7
+  - first:
+      213: -1194589539348054168
+    second: letter-'t'-ending-sound_8
+  - first:
+      213: -3127918193185678975
+    second: letter-'t'-ending-sound_9
+  - first:
+      213: -2939569863418647113
+    second: letter-'t'-ending-sound_10
+  - first:
+      213: -1855988352765056026
+    second: letter-'t'-ending-sound_11
+  - first:
+      213: -5245530976691554597
+    second: letter-'t'-ending-sound_12
+  - first:
+      213: -2332041305425123097
+    second: letter-'t'-ending-sound_13
+  - first:
+      213: 2632962900129880417
+    second: letter-'t'-ending-sound_14
+  - first:
+      213: -4479137374509012987
+    second: letter-'t'-ending-sound_15
+  - first:
+      213: 7021053007518261985
+    second: letter-'t'-ending-sound_16
+  - first:
+      213: -3096892896718897875
+    second: letter-'t'-ending-sound_17
+  - first:
+      213: -7574085331101079480
+    second: letter-'t'-ending-sound_18
+  - first:
+      213: -7717185253153328540
+    second: letter-'t'-ending-sound_19
+  - first:
+      213: -4438154261551467410
+    second: letter-'t'-ending-sound_20
+  - first:
+      213: -1526158559577547549
+    second: letter-'t'-ending-sound_21
+  - first:
+      213: -7136776269348154599
+    second: letter-'t'-ending-sound_22
+  - first:
+      213: 6468809984727044899
+    second: letter-'t'-ending-sound_23
+  - first:
+      213: -4193679471375943067
+    second: letter-'t'-ending-sound_24
+  - first:
+      213: 8420109261912030535
+    second: letter-'t'-ending-sound_25
+  - first:
+      213: -1909205219613263205
+    second: letter-'t'-ending-sound_26
+  - first:
+      213: 7060082904156918046
+    second: letter-'t'-ending-sound_27
+  - first:
+      213: -5921474128512398007
+    second: letter-'t'-ending-sound_28
+  - first:
+      213: 6282872647842112520
+    second: letter-'t'-ending-sound_29
+  - first:
+      213: -8394293089741006749
+    second: letter-'t'-ending-sound_30
+  - first:
+      213: -510625944155441131
+    second: letter-'t'-ending-sound_31
+  - first:
+      213: -7922394835555282370
+    second: letter-'t'-ending-sound_32
+  - first:
+      213: -7908708752886112892
+    second: letter-'t'-ending-sound_33
+  - first:
+      213: -6243287858069994354
+    second: letter-'t'-ending-sound_34
+  - first:
+      213: 6549706696753775512
+    second: letter-'t'-ending-sound_35
+  - first:
+      213: -3224425395196398242
+    second: letter-'t'-ending-sound_36
+  - first:
+      213: -1856153866197191212
+    second: letter-'t'-ending-sound_37
+  - first:
+      213: 3582686449775455181
+    second: letter-'t'-ending-sound_38
+  - first:
+      213: -6901595896707609940
+    second: letter-'t'-ending-sound_39
+  - first:
+      213: -1515291025986537092
+    second: letter-'t'-ending-sound_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1450
+        width: 319
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3112fa010730fec20800000000000000
+      internalID: 3237810436953809171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1518
+        width: 521
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f95b65ded9535a40800000000000000
+      internalID: 5355723195471845874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_2
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1522
+        width: 454
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d4d16e448b83430800000000000000
+      internalID: 3762960094726016355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_3
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1668
+        width: 903
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dea3598140614f0800000000000000
+      internalID: -858494175338107504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_4
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 1533
+        width: 673
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d56af139c283d1a0800000000000000
+      internalID: -6785936412878674478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_5
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1042
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7aea5f32d544960800000000000000
+      internalID: 7585290081425860550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_6
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1094
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a606531d790129920800000000000000
+      internalID: 2995474946390843498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_7
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1042
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796f816f26dd70e20800000000000000
+      internalID: 3316863067687024279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_8
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1043
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ff2c6a427fb6fe0800000000000000
+      internalID: -1194589539348054168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_9
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1043
+        width: 13
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1899fa8c9f66794d0800000000000000
+      internalID: -3127918193185678975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_10
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1042
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdec72a8cc8437d0800000000000000
+      internalID: -2939569863418647113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_11
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1040
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb2d263d643e36e0800000000000000
+      internalID: -1855988352765056026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_12
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1042
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6fdf36e512437b0800000000000000
+      internalID: -5245530976691554597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_13
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1043
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e894d9cce2afd0800000000000000
+      internalID: -2332041305425123097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_14
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 1042
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1691601cec92a8420800000000000000
+      internalID: 2632962900129880417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_15
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 1043
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508e6341a48e6d1c0800000000000000
+      internalID: -4479137374509012987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_16
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1043
+        width: 13
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2605ed28acf6160800000000000000
+      internalID: 7021053007518261985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_17
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1042
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2db3a78150a505d0800000000000000
+      internalID: -3096892896718897875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_18
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1042
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8482935458173e690800000000000000
+      internalID: -7574085331101079480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_19
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1043
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b9ef46ec07e490800000000000000
+      internalID: -7717185253153328540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 299
+        width: 428
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64b6d5a6328862c0800000000000000
+      internalID: -4438154261551467410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_21
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 290
+        width: 486
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec557140eef1dae0800000000000000
+      internalID: -1526158559577547549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_22
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 256
+        width: 530
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913d0189bc315fc90800000000000000
+      internalID: -7136776269348154599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_23
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 260
+        width: 552
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323d72b6864d5c950800000000000000
+      internalID: 6468809984727044899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_24
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 6
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56af9c66dbe0dc5c0800000000000000
+      internalID: -4193679471375943067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_25
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 57
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d3e3613cc3ad470800000000000000
+      internalID: 8420109261912030535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_26
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 6
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a31a9d7f32185e0800000000000000
+      internalID: -1909205219613263205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_27
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 7
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11d413def37af160800000000000000
+      internalID: 7060082904156918046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_28
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3
+        width: 33
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d4a5747a2b2dda0800000000000000
+      internalID: -5921474128512398007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_29
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 3
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804a5a7926f313750800000000000000
+      internalID: 6282872647842112520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_30
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 6
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3689875e8ea718b80800000000000000
+      internalID: -8394293089741006749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_31
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 6
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5183481c864e9e8f0800000000000000
+      internalID: -510625944155441131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_32
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 7
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3296582fdffd0290800000000000000
+      internalID: -7922394835555282370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_33
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 6
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d53389a4f9e3290800000000000000
+      internalID: -7908708752886112892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_34
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 7
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e848a3d75c26b59a0800000000000000
+      internalID: -6243287858069994354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_35
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 7
+        width: 13
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8938103f98b35ea50800000000000000
+      internalID: 6549706696753775512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_36
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 6
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55f192df2a8043d0800000000000000
+      internalID: -3224425395196398242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_37
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 6
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d539dc94ed9d36e0800000000000000
+      internalID: -1856153866197191212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_38
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 6
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba87c185248b130800000000000000
+      internalID: 3582686449775455181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_39
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 6
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa0371291b9830a0800000000000000
+      internalID: -6901595896707609940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: letter-'t'-ending-sound_40
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 7
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c793cb817da98fae0800000000000000
+      internalID: -1515291025986537092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

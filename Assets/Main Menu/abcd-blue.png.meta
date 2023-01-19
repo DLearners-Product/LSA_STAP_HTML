@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 5dcfd4e148bb046e09a5d216f27feff0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4085692179741495669
+    second: abcd-blue_0
+  - first:
+      213: -3256552356961195079
+    second: abcd-blue_1
+  - first:
+      213: 4767488753391619586
+    second: abcd-blue_2
+  - first:
+      213: 4537367082578280671
+    second: abcd-blue_3
+  - first:
+      213: 4773991026357609852
+    second: abcd-blue_4
+  - first:
+      213: 3874164545789941457
+    second: abcd-blue_5
+  - first:
+      213: 8738161480567703121
+    second: abcd-blue_6
+  - first:
+      213: 5349573396396376657
+    second: abcd-blue_7
+  - first:
+      213: 9042061789283109315
+    second: abcd-blue_8
+  - first:
+      213: 1747842641572678103
+    second: abcd-blue_9
+  - first:
+      213: -1977338989261214392
+    second: abcd-blue_10
+  - first:
+      213: 4251611741766769518
+    second: abcd-blue_11
+  - first:
+      213: 1483310803214480988
+    second: abcd-blue_12
+  - first:
+      213: 5150683922977294831
+    second: abcd-blue_13
+  - first:
+      213: 6221648034408895208
+    second: abcd-blue_14
+  - first:
+      213: 1864294665652376174
+    second: abcd-blue_15
+  - first:
+      213: 645580216073202698
+    second: abcd-blue_16
+  - first:
+      213: -7272872385801328317
+    second: abcd-blue_17
+  - first:
+      213: -1050403767577023970
+    second: abcd-blue_18
+  - first:
+      213: -3863349582917800818
+    second: abcd-blue_19
+  - first:
+      213: -7467626021365774940
+    second: abcd-blue_20
+  - first:
+      213: 7634848284654594250
+    second: abcd-blue_21
+  - first:
+      213: -1686660770410355246
+    second: abcd-blue_22
+  - first:
+      213: -6523503078763742381
+    second: abcd-blue_23
+  - first:
+      213: 8942697204340049151
+    second: abcd-blue_24
+  - first:
+      213: -3761814877013825766
+    second: abcd-blue_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abcd-blue_0
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2381
+        width: 241
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571551bf36b43b830800000000000000
+      internalID: 4085692179741495669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_1
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2370
+        width: 220
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbedd2a2e66ec2d0800000000000000
+      internalID: -3256552356961195079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_2
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 2364
+        width: 211
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ec39013c5892240800000000000000
+      internalID: 4767488753391619586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_3
+      rect:
+        serializedVersion: 2
+        x: 2845
+        y: 2372
+        width: 219
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd001a45257f7fe30800000000000000
+      internalID: 4537367082578280671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_4
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 2370
+        width: 209
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75a2f67b8f904240800000000000000
+      internalID: 4773991026357609852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_5
+      rect:
+        serializedVersion: 2
+        x: 4535
+        y: 2325
+        width: 203
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6d831d02cc3c530800000000000000
+      internalID: 3874164545789941457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_6
+      rect:
+        serializedVersion: 2
+        x: 5154
+        y: 2269
+        width: 222
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1564d3fd19f244970800000000000000
+      internalID: 8738161480567703121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1793
+        width: 230
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152061829a08d3a40800000000000000
+      internalID: 5349573396396376657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1804
+        width: 104
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c94a5b5a4bdb7d70800000000000000
+      internalID: 9042061789283109315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_9
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1695
+        width: 225
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9483e3f95914810800000000000000
+      internalID: 1747842641572678103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_10
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1790
+        width: 208
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d2e886aa41f84e0800000000000000
+      internalID: -1977338989261214392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_11
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 1790
+        width: 98
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b53e66a52c00b30800000000000000
+      internalID: 4251611741766769518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_12
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 1785
+        width: 304
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56391d0157c59410800000000000000
+      internalID: 1483310803214480988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_13
+      rect:
+        serializedVersion: 2
+        x: 4977
+        y: 1785
+        width: 239
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9806b0db7ea7740800000000000000
+      internalID: 5150683922977294831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_14
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1230
+        width: 231
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e213707cebb75650800000000000000
+      internalID: 6221648034408895208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_15
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1129
+        width: 221
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629dd6fe1e4fd910800000000000000
+      internalID: 1864294665652376174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_16
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1135
+        width: 312
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c201d39cf85f800800000000000000
+      internalID: 645580216073202698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_17
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 1225
+        width: 192
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34960933911911b90800000000000000
+      internalID: -7272872385801328317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_18
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1228
+        width: 211
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ae6d2b6573c61f0800000000000000
+      internalID: -1050403767577023970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_19
+      rect:
+        serializedVersion: 2
+        x: 4549
+        y: 1228
+        width: 225
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce703f500a26ac0800000000000000
+      internalID: -3863349582917800818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_20
+      rect:
+        serializedVersion: 2
+        x: 5407
+        y: 1230
+        width: 217
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a58701e2b9ad5890800000000000000
+      internalID: -7467626021365774940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_21
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 660
+        width: 228
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac866d0501e64f960800000000000000
+      internalID: 7634848284654594250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_22
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 662
+        width: 315
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5aa1337f6c798e0800000000000000
+      internalID: -1686660770410355246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_23
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 662
+        width: 247
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bbe1b438cd775a0800000000000000
+      internalID: -6523503078763742381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_24
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 558
+        width: 216
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff441961ab7da1c70800000000000000
+      internalID: 8942697204340049151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abcd-blue_25
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 660
+        width: 230
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17afc0ec495bcbc0800000000000000
+      internalID: -3761814877013825766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
