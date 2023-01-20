@@ -22,8 +22,10 @@ public class iSpyS_Main: MonoBehaviour {
 	public Text count;
 	public int answer_count;
 	public GameObject G_final;
-	
-	
+	public AudioSource clapSource;
+	public AudioClip clapClip;
+
+
 
 	void Start()
 	{
@@ -86,6 +88,8 @@ public class iSpyS_Main: MonoBehaviour {
 			if(answer_count == 5)
             {
 				G_final.SetActive(true);
+				clapSource.clip = clapClip;
+				clapSource.Play();
             }
 		}
 		

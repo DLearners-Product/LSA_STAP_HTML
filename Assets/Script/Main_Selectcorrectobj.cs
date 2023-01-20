@@ -17,6 +17,8 @@ public class Main_Selectcorrectobj : MonoBehaviour
     public GameObject G_block;
     public AudioClip[] wrongs;
     public AudioSource wrong;
+    public AudioSource answer;
+    public AudioClip answeClip;
 
 
     // Start is called before the first frame update
@@ -41,7 +43,8 @@ public class Main_Selectcorrectobj : MonoBehaviour
         {
 
             //selectedobj.GetComponent<Button>().enabled = false;
-            //answer.Play();
+            answer.clip = answeClip;
+            answer.Play();
             //if (this.gameObject.GetComponent<AudioSource>() != null)
             //{
             //    this.GetComponent<AudioSource>().Play();

@@ -27,6 +27,8 @@ public class iSpyT_Main: MonoBehaviour {
 	public GameObject[] obj_Reset_color;
 	public GameObject[] obj_Reset_grayscale;
 	public GameObject G_final;
+	public AudioSource clapSource;
+	public AudioClip clapClip;
 
 
 	void Start()
@@ -108,7 +110,9 @@ public class iSpyT_Main: MonoBehaviour {
 			if(answer_count == 5)
             {
 				G_final.SetActive(true);
-            }
+				clapSource.clip = clapClip;
+				clapSource.Play();
+			}
 
 		
 		}

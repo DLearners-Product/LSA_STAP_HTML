@@ -21,6 +21,9 @@ public class iSpyP_Main: MonoBehaviour {
 	public GameObject blur;
 	public Text objname;
 	public GameObject G_final;
+	public AudioSource clapSource;
+	public AudioClip clapClip;
+
 
 	//public GameObject lvlcmp;
 	//public Text gem;
@@ -107,7 +110,9 @@ public class iSpyP_Main: MonoBehaviour {
 			if(answer_count == 5)
             {
 				G_final.SetActive(true);
-            }
+				clapSource.clip = clapClip;
+				clapSource.Play();
+			}
 
 		
 		}
