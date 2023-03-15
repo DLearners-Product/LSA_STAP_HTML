@@ -75,6 +75,8 @@ public class Main_Blended : MonoBehaviour
     public string[] TEACHER_INSTRUCTION;
     public bool[] HAS_VIDEO;
     public bool[] HAS_WORKSHEET;
+    public bool[] HAS_SYLLABLE;
+    public bool[] HAS_GRAMMER;
 
     // emerson -- project blue
 
@@ -115,6 +117,7 @@ public class Main_Blended : MonoBehaviour
     public string STR_Passage;
     public string STR_API;
     public bool B_Reader;
+    public BlendedOperations blendedOperations;
 
     void Awake()
     {
@@ -775,10 +778,15 @@ public class Main_Blended : MonoBehaviour
         {
             Destroy(G_currenlevel);
         }
+
+        blendedOperations.ChangeSyllabifyTCName();
+
         var currentLevel = Instantiate(GA_levelsIG[levelno]);
         currentLevel.transform.SetParent(GameObject.Find("Game_Panel").transform, false);
         currentLevel.transform.SetAsFirstSibling();
         G_currenlevel = currentLevel;
+
+        blendedOperations.AddButtonToSyllabifyingTC();
 
         //NEW IMMERSIVE READING
         if (currentLevel.GetComponent<Image>() != null)

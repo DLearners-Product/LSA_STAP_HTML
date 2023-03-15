@@ -1,14 +1,25 @@
 mergeInto(LibraryManager.library, {
 
-	
-	TeacherInst: function (htmlJson) {
-     var json = Pointer_stringify(htmlJson)
-	localStorage.setItem('htmlJson', json);
-  },
+    SetBlendedData : function(jsonData){
+        SetBlendedData_(Pointer_stringify(jsonData));
+    },
 
-  Game: function(name){
-  var myGameName = Pointer_stringify(name)
-	localStorage.setItem('gameName', myGameName);
-  },
+    TeacherInst : function (htmlJson) {
+        var json = Pointer_stringify(htmlJson)
+	    localStorage.setItem('htmlJson', json);
+    },
+
+    Game : function(name){
+        var myGameName = Pointer_stringify(name)
+        localStorage.setItem('gameName', myGameName);
+    },
+
+    CallSyllabyfyText : function(textToSyllabify) {
+        PerformSyllabifycation(UTF8ToString(textToSyllabify));
+    },
+
+    PassActivityScoreData : function(scoreData){
+        SetActivityScoreData(UTF8ToString(scoreData));
+    }
 
 });
