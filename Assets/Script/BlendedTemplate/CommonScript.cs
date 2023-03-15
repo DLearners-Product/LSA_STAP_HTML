@@ -52,16 +52,19 @@ public class TextComponent{
 
 [Serializable]
 public class SlideActivityData{
+    public string question;
     public int questionNo;
-    public int tries;
-    public int failures;
-    public int score;
+    public int tries = 0;
+    public int failures = 0;
+    public int score = 0;
 
     public SlideActivityData(int qNo){
         this.questionNo = qNo;
-        this.tries = 0;
-        this.failures = 0;
-        this.score = 0;
+    }
+
+    public SlideActivityData(int qNo, string question){
+        this.questionNo = qNo;
+        this.question = question;
     }
 
     public string getParsedJsonData(){

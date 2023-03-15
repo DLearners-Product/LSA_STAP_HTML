@@ -50,29 +50,38 @@ public class ScoreManager : MonoBehaviour
         if(levelno == -1)
             levelno = Main_Blended.OBJ_main_blended.levelno;
 
-        if(lessonGameActivityDatas[levelno].slideActivities != null && lessonGameActivityDatas[levelno].slideActivities.Length > 0){
-            return null;
-        }
-
         activityData = "[";
 
-        for(int i=0; i < lessonGameActivityDatas[levelno].slideActivities.Length; i++){
-            activityData += lessonGameActivityDatas[levelno].slideActivities[i].getParsedJsonData();
-            if((i+1) < lessonGameActivityDatas[levelno].slideActivities.Length){
-                activityData += ",";
+        if(lessonGameActivityDatas[levelno].slideActivities != null){
+            for(int i=0; i < lessonGameActivityDatas[levelno].slideActivities.Length; i++){
+                activityData += lessonGameActivityDatas[levelno].slideActivities[i].getParsedJsonData();
+                if((i+1) < lessonGameActivityDatas[levelno].slideActivities.Length){
+                    activityData += ",";
+                }
             }
         }
 
-        activityData = "]";
+        activityData += "]";
         return activityData;
     }
 
-    public void ResetActivityData(int QIndex){
-        
+    public void ResetActivityData(int levelno = -1){
+        if(levelno == -1)
+            levelno = Main_Blended.OBJ_main_blended.levelno;
+
+        if(lessonGameActivityDatas[levelno] == null || lessonGameActivityDatas[levelno].slideActivities == null) return;
+
+        for(int i=0; i < lessonGameActivityDatas[levelno].slideActivities.Length; i++){
+            lessonGameActivityDatas[levelno].slideActivities[i] = new SlideActivityData(i);
+        }
     }
 
     // public string GetAllActivityData(){
     // }
+
+    public void PlayerTried(int questionIndex){
+        lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].tries++;
+    }
 
     public void RightAnswer(int questionIndex, int scorevalue = 1){
         THI_InitialiseGameActivity(questionIndex);

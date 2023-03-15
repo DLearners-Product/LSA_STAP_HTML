@@ -98,6 +98,7 @@ public class BlendedOperations : MonoBehaviour
         Debug.Log($"Came to GetActivityScoreData");
         string scoreData =  ScoreManager.instance.GetActivityData();
         bridge.SendActivityScoreData(scoreData);
+        ScoreManager.instance.ResetActivityData();
     }
 
     public void CheckFunc(){
@@ -132,13 +133,16 @@ public class BlendedOperations : MonoBehaviour
             // textField = G_currenlevel.transform.Find(textComponentData[i].component.name);
             textField = FindGameObject(Main_Blended.OBJ_main_blended.G_currenlevel, textComponentData[i].component.name);
             if(textField != null){
-                Debug.Log($"{textField} : {textField == null}");
+                // Debug.Log($"{textField} : {textField == null}");
+
+                string textCompValue = (textField.GetComponent<Text>()) ? textField.GetComponent<Text>().text : textField.GetComponent<TMP_Text>().text;
+
                 if(textField.gameObject.GetComponent<Button>() == null){
-                    Debug.Log("In if condition");
-                    textField.gameObject.AddComponent<Button>().onClick.AddListener(() => { SendDataToSylabify(textField.GetComponent<Text>().text); });
+                    // Debug.Log("In if condition");
+                    textField.gameObject.AddComponent<Button>().onClick.AddListener(() => { SendDataToSylabify(textCompValue); });
                 }else{
                     Debug.Log("In else condition");
-                    textField.gameObject.GetComponent<Button>().onClick.AddListener(() => { SendDataToSylabify(textField.GetComponent<Text>().text); });
+                    textField.gameObject.GetComponent<Button>().onClick.AddListener(() => { SendDataToSylabify(textCompValue); });
                 }
             }
         }

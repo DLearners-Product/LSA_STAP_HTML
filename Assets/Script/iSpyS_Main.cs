@@ -46,6 +46,7 @@ public class iSpyS_Main: MonoBehaviour {
 
 			if (selectedobj.name == "cissor")
 			{
+				ScoreManager.instance.RightAnswer(answer_count);
 				answer_count++;
 				count.text = ""+answer_count;
 				Debug.Log("coming sicore");
@@ -55,6 +56,7 @@ public class iSpyS_Main: MonoBehaviour {
 			}
 			if (selectedobj.name == "nake")
 			{
+				ScoreManager.instance.RightAnswer(answer_count);
 				answer_count++;
 				count.text = "" + answer_count;
 				selectedobj.SetActive(false);
@@ -63,6 +65,7 @@ public class iSpyS_Main: MonoBehaviour {
 			}
 			if (selectedobj.name == "trawberry")
 			{
+				ScoreManager.instance.RightAnswer(answer_count);
 				answer_count++;
 				count.text = "" + answer_count;
 				selectedobj.SetActive(false);
@@ -71,6 +74,7 @@ public class iSpyS_Main: MonoBehaviour {
 			}
 			if (selectedobj.name == "tar")
 			{
+				ScoreManager.instance.RightAnswer(answer_count);
 				answer_count++;
 				count.text = "" + answer_count;
 				selectedobj.SetActive(false);
@@ -79,6 +83,7 @@ public class iSpyS_Main: MonoBehaviour {
 			}
 			if (selectedobj.name == "unflower")
 			{
+				ScoreManager.instance.RightAnswer(answer_count);
 				answer_count++;
 				count.text = "" + answer_count;
 				selectedobj.SetActive(false);
@@ -93,6 +98,17 @@ public class iSpyS_Main: MonoBehaviour {
             }
 		}
 		
+	}
+
+	private void Update()
+	{
+		if(Input.GetMouseButtonDown(0)){
+			selectedobj = EventSystem.current.currentSelectedGameObject;
+			Debug.Log($"{selectedobj.name}", selectedobj);
+			if(selectedobj.GetComponent<mouse>() == null){
+				ScoreManager.instance.PlayerTried(answer_count);
+			}
+		}
 	}
 
 	public void change()
