@@ -15,11 +15,14 @@ public class DragandDrop : MonoBehaviour
 
     public GameObject optionPanel; //T_Phonemic-1
     public GameObject[] otherOptions;  //T_Phonemic-1
+    bool scoreSet;
 
     private void Start()
     {
         G_dash.SetActive(true);
         pos_initial = this.transform.position;
+		ScoreManager.instance.InstantiateScore(1);
+        scoreSet = false;
     }
 
     // Update is called once per frame
@@ -59,6 +62,10 @@ public class DragandDrop : MonoBehaviour
             if (!B_drag)
             {
                 G_dash.SetActive(false);
+                if(!scoreSet){
+    				ScoreManager.instance.RightAnswer(0);
+                    scoreSet = true;
+                }
 
                 this.GetComponent<DragandDrop>().enabled = false;
                 if(this.name=="cat")
@@ -82,7 +89,10 @@ public class DragandDrop : MonoBehaviour
         }
         else
         {
-            
+            if(!scoreSet){
+    			ScoreManager.instance.WrongAnswer(0);
+                scoreSet = true;
+            }
            // int random = Random.Range(2, clips.Length);
             wrong.clip = clips[2];
             wrong.Play();
@@ -100,5 +110,6 @@ public class DragandDrop : MonoBehaviour
     {
         B_corret = false;
         this.transform.position = pos_initial;
+        scoreSet = false;
     }
 }

@@ -17,7 +17,7 @@ public class at_family_main : MonoBehaviour
     public GameObject[] AllOption;
     public Transform[] AllOptionPos;
     public GameObject[] BackTo_QuesAns; //  0 question  1 answer
-
+    int totalCount;
           //to turn on the collider when restart
 
     // Start is called before the first frame update
@@ -25,6 +25,12 @@ public class at_family_main : MonoBehaviour
     {
         OBJ_at_family_main = this;
         A_text.SetActive(false);
+        if(gamename == "form scenetance 1"){
+            totalCount = 3;
+        } else {
+            totalCount = 2;
+        } 
+		ScoreManager.instance.InstantiateScore(totalCount);
     }
 
     public void form_sentence_Reset()
@@ -54,10 +60,5 @@ public class at_family_main : MonoBehaviour
 
         BackTo_QuesAns[0].SetActive(true);
         BackTo_QuesAns[1].SetActive(false);
-
-        
-
-
-
     }
 }

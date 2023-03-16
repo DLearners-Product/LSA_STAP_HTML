@@ -31,17 +31,32 @@ public class iSpyP_Main: MonoBehaviour {
 
 	public GameObject[] obj_Reset_color;
 	public GameObject[] obj_Reset_grayscale;
+	int totalAnsCount;
 
 	void Start()
 	{
+		totalAnsCount = 5;
 		blur.SetActive(false);
 		answer_count = 0;
+		ScoreManager.instance.InstantiateScore(totalAnsCount);
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		
+		if(Input.GetMouseButtonDown(0)){
+			selectedobj = EventSystem.current.currentSelectedGameObject;
+			// Debug.Log(selectedobj);
+			Button clickedObject;
+			if(selectedobj == null || selectedobj.GetComponent<mouse>() == null){
+				Debug.Log("If condition executed");
+				ScoreManager.instance.PlayerTried(answer_count);
+			}else if(selectedobj.TryGetComponent<Button>(out clickedObject)){
+				Debug.Log($"{selectedobj.name}", selectedobj);
+
+				Debug.Log(clickedObject.onClick.GetPersistentEventCount());
+			}
+		}
 	}
     public void change()
     {
@@ -65,56 +80,74 @@ public class iSpyP_Main: MonoBehaviour {
 			//selectedobj.GetComponent<Button>().enabled = false;	TODO: Edited by emerson
 			//Destroy(selectedobj.GetComponent<mouse>());
 
-			if (selectedobj.name == "aint")
+			if (selectedobj.name == "aint" || selectedobj.name == "apers" || selectedobj.name == "illow" || selectedobj.name == "ot" || selectedobj.name == "umpkin")
 			{
+				ScoreManager.instance.RightAnswer(answer_count, questionValue : selectedobj.name);
 				answer_count++;
 				count.text = "" + answer_count;
 				Debug.Log(selectedobj.name);
 				selectedobj.SetActive(false);
-				G_1.SetActive(true);
+				switch(selectedobj.name){
+					case "aint":
+						G_1.SetActive(true);
+						break;
+					case "apers":
+						G_2.SetActive(true);
+						break;
+					case "illow":
+						G_3.SetActive(true);
+						break;
+					case "ot":
+						G_4.SetActive(true);
+						break;
+					case "umpkin":
+						G_5.SetActive(true);
+						break;
+				}
 				change();
-
+			}else{
+				ScoreManager.instance.WrongAnswer(answer_count);
 			}
-			if (selectedobj.name == "apers")
-			{
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_2.SetActive(true);
-				change();
-			}
-			if (selectedobj.name == "illow")
-			{
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_3.SetActive(true);
-				change();
-			}
-			if (selectedobj.name == "ot")
-			{
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_4.SetActive(true);
-				change();
-			}
-			if (selectedobj.name == "umpkin")
-			{
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_5.SetActive(true);
-				change();
-			}
-			if(answer_count == 5)
+			// if (selectedobj.name == "apers")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_2.SetActive(true);
+			// 	change();
+			// }
+			// if (selectedobj.name == "illow")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_3.SetActive(true);
+			// 	change();
+			// }
+			// if (selectedobj.name == "ot")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_4.SetActive(true);
+			// 	change();
+			// }
+			// if (selectedobj.name == "umpkin")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_5.SetActive(true);
+			// 	change();
+			// }
+			if(answer_count == totalAnsCount)
             {
 				G_final.SetActive(true);
 				clapSource.clip = clapClip;
 				clapSource.Play();
 			}
-
-		
+		}else{
+			ScoreManager.instance.WrongAnswer(answer_count);
 		}
 		
    }

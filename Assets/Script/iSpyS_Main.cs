@@ -21,6 +21,7 @@ public class iSpyS_Main: MonoBehaviour {
 	public Text objname;
 	public Text count;
 	public int answer_count;
+	int totalAnsCount;
 	public GameObject G_final;
 	public AudioSource clapSource;
 	public AudioClip clapClip;
@@ -31,6 +32,8 @@ public class iSpyS_Main: MonoBehaviour {
 	{
 		blur.SetActive(false);
 		answer_count = 0;
+		totalAnsCount = 5;
+		ScoreManager.instance.InstantiateScore(totalAnsCount);
 	}
 
 
@@ -44,58 +47,73 @@ public class iSpyS_Main: MonoBehaviour {
 			//selectedobj.GetComponent<Button>().enabled = false;	//TODO: Edited by emerson
 			//Destroy(selectedobj.GetComponent<mouse>());		TODO: Edited by emerson
 
-			if (selectedobj.name == "cissor")
+			if (selectedobj.name == "cissor" || selectedobj.name == "nake" || selectedobj.name == "trawberry" || selectedobj.name == "tar" || selectedobj.name == "unflower")
 			{
-				ScoreManager.instance.RightAnswer(answer_count);
+				ScoreManager.instance.RightAnswer(answer_count, questionValue : selectedobj.name);
 				answer_count++;
 				count.text = ""+answer_count;
-				Debug.Log("coming sicore");
 				selectedobj.SetActive(false);
-				G_1.SetActive(true);
+				switch(selectedobj.name){
+					case "cissor":
+						G_1.SetActive(true);
+						break;
+					case "nake":
+						G_2.SetActive(true);
+						break;
+					case "trawberry":
+						G_3.SetActive(true);
+						break;
+					case "tar":
+						G_4.SetActive(true);
+						break;
+					case "unflower":
+						G_5.SetActive(true);
+						break;
+				}
 				change();
+			}else{
+				ScoreManager.instance.WrongAnswer(answer_count);
 			}
-			if (selectedobj.name == "nake")
-			{
-				ScoreManager.instance.RightAnswer(answer_count);
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_2.SetActive(true);
-				change();
-			}
-			if (selectedobj.name == "trawberry")
-			{
-				ScoreManager.instance.RightAnswer(answer_count);
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_3.SetActive(true);
-				change();
-			}
-			if (selectedobj.name == "tar")
-			{
-				ScoreManager.instance.RightAnswer(answer_count);
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_4.SetActive(true);
-				change();
-			}
-			if (selectedobj.name == "unflower")
-			{
-				ScoreManager.instance.RightAnswer(answer_count);
-				answer_count++;
-				count.text = "" + answer_count;
-				selectedobj.SetActive(false);
-				G_5.SetActive(true);
-				change();
-			}
-			if(answer_count == 5)
+			// if (selectedobj.name == "nake")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_2.SetActive(true);
+			// 	change();
+			// }
+			// if (selectedobj.name == "trawberry")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_3.SetActive(true);
+			// 	change();
+			// }
+			// if (selectedobj.name == "tar")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_4.SetActive(true);
+			// 	change();
+			// }
+			// if (selectedobj.name == "unflower")
+			// {
+			// 	answer_count++;
+			// 	count.text = "" + answer_count;
+			// 	selectedobj.SetActive(false);
+			// 	G_5.SetActive(true);
+			// 	change();
+			// }
+			if(answer_count == totalAnsCount)
             {
 				G_final.SetActive(true);
 				clapSource.clip = clapClip;
 				clapSource.Play();
             }
+		}else{
+			ScoreManager.instance.WrongAnswer(answer_count);
 		}
 		
 	}
@@ -104,8 +122,9 @@ public class iSpyS_Main: MonoBehaviour {
 	{
 		if(Input.GetMouseButtonDown(0)){
 			selectedobj = EventSystem.current.currentSelectedGameObject;
-			Debug.Log($"{selectedobj.name}", selectedobj);
-			if(selectedobj.GetComponent<mouse>() == null){
+			// Debug.Log(selectedobj);
+			// Debug.Log($"{selectedobj.name}", selectedobj);
+			if(selectedobj == null || selectedobj.GetComponent<mouse>() == null){
 				ScoreManager.instance.PlayerTried(answer_count);
 			}
 		}

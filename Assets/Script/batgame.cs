@@ -13,15 +13,17 @@ public class batgame : MonoBehaviour
     public GameObject[] GA_formSentence2;
     public Transform hatpos,batpos;
     public GameObject Q1, Q2;
-
+    int totalQuesCount;
 
     public void Awake()
     {
         OBJ_batgame = this;
         B_gotanswer = false;
+        totalQuesCount = 2;
     }
     private void Start()
     {
+		ScoreManager.instance.InstantiateScore(totalQuesCount);
     }
 
 

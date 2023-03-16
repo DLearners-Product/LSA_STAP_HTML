@@ -13,12 +13,14 @@ public class Drag_Bat : MonoBehaviour
     public AudioSource wrong;
     public AudioClip[] AUD_answers;
     public AudioSource AUD_source;
+    bool scoreSet;
 
    
 
     private void Start()
     {
         pos_initial = this.transform.position;
+        scoreSet = false;
     }
 
     // Update is called once per frame
@@ -64,6 +66,8 @@ public class Drag_Bat : MonoBehaviour
                     // this.transform.position
                    // this.GetComponent<Drag_Bat>().enabled = false;
                    // Debug.Log("ins!!!!!!!!");
+                    ScoreManager.instance.RightAnswer(batgame.OBJ_batgame.I_answercount);
+
                     batgame.OBJ_batgame.I_answercount++;
                     if (batgame.OBJ_batgame.B_gotanswer == false)
                     {
@@ -109,6 +113,8 @@ public class Drag_Bat : MonoBehaviour
 
         else
         {
+            ScoreManager.instance.WrongAnswer(batgame.OBJ_batgame.I_answercount);
+
             wrong.Play();
             if (!B_drag && !B_corret)
             {

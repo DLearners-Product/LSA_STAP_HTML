@@ -15,11 +15,13 @@ public class MultipleDrag : MonoBehaviour
     public AudioSource wrong;
     public AudioClip[] answerclips;
     public AudioSource ansSource;
+    bool scoreSet;
 
     private void Start()
     {
         pos_initial = this.transform.position;
         B_matched = false;
+        scoreSet = false;
     }
 
     // Update is called once per frame
@@ -107,6 +109,15 @@ public class MultipleDrag : MonoBehaviour
        
         else
         {
+            if(!scoreSet){
+                if(at_family_main.OBJ_at_family_main.gamename == "form scenetance 1"){
+                    ScoreManager.instance.WrongAnswer(at_family_main.OBJ_at_family_main.dash_count_S1);
+                } else {
+                    ScoreManager.instance.WrongAnswer(at_family_main.OBJ_at_family_main.dash_count_S3);
+                }
+
+                scoreSet = true;
+            }
             wrong.Play();
             if (!B_drag && !B_corret)
             {
@@ -125,11 +136,21 @@ public class MultipleDrag : MonoBehaviour
                 if (at_family_main.OBJ_at_family_main.gamename == "form scenetance 1")
 
                 {
+                    if(!scoreSet){
+                        ScoreManager.instance.RightAnswer(at_family_main.OBJ_at_family_main.dash_count_S1);
+                        scoreSet = true;
+                    }
+
                     at_family_main.OBJ_at_family_main.dash_count_S1++;
                    
                 }
                 if (at_family_main.OBJ_at_family_main.gamename == "form scenetance 3")
                 {
+                    if(!scoreSet){
+                        ScoreManager.instance.RightAnswer(at_family_main.OBJ_at_family_main.dash_count_S3);
+                        scoreSet = true;
+                    }
+
                     at_family_main.OBJ_at_family_main.dash_count_S3++;
                    
                 }
@@ -137,8 +158,9 @@ public class MultipleDrag : MonoBehaviour
             }
         }
     }
-    //private void OnTriggerExit2D(Collider2D collision)
-    //{
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        scoreSet = false;
     //    //if (collision.gameObject.name == this.gameObject.name && B_matched && B_corret)
     //    // {
     //    if (B_CorrectAnswer == true)
@@ -152,5 +174,5 @@ public class MultipleDrag : MonoBehaviour
     //    B_corret = false;
        
     //    //}
-    //}
+    }
 }

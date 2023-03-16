@@ -80,16 +80,21 @@ public class ScoreManager : MonoBehaviour
     // }
 
     public void PlayerTried(int questionIndex){
-        lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].tries++;
+        if(lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities.Length > questionIndex)
+            lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].tries++;
     }
 
-    public void RightAnswer(int questionIndex, int scorevalue = 1){
+    public void RightAnswer(int questionIndex, int scorevalue = 1, string questionValue=null){
+        if(questionValue != null)
+            lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].question = questionValue;
         THI_InitialiseGameActivity(questionIndex);
         lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].tries++;
         lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].score += scorevalue;
     }
 
-    public void WrongAnswer(int questionIndex, int scorevalue = 1){
+    public void WrongAnswer(int questionIndex, int scorevalue = 1, string questionValue=null){
+        if(questionValue != null)
+            lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].question = questionValue;
         THI_InitialiseGameActivity(questionIndex);
         lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].tries++;
         lessonGameActivityDatas[Main_Blended.OBJ_main_blended.levelno].slideActivities[questionIndex].failures += scorevalue;
