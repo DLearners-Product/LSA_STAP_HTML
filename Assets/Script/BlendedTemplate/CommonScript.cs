@@ -70,6 +70,11 @@ public class SlideActivityData{
     public string getParsedJsonData(){
         return JsonUtility.ToJson(this);
     }
+
+    // return true if object is empty
+    public bool isEmpty(){
+        return this.score <= 0 && this.failures <= 0 && this.tries <= 0;
+    }
 }
 
 [Serializable]

@@ -781,7 +781,7 @@ public class Main_Blended : MonoBehaviour
 
         blendedOperations.ChangeSyllabifyTCName();
 
-        var currentLevel = Instantiate(GA_levelsIG[levelno]);
+        var currentLevel = Instantiate(MainBlendedData.instance.slideDatas[levelno].slideObject);
         currentLevel.transform.SetParent(GameObject.Find("Game_Panel").transform, false);
         currentLevel.transform.SetAsFirstSibling();
         G_currenlevel = currentLevel;

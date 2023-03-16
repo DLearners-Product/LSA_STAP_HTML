@@ -16,6 +16,13 @@ public class BlendedOperations : MonoBehaviour
             instance = this;
         }
     }
+    
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space)){
+            Debug.Log(ScoreManager.instance.GetActivityData());
+        }
+    }
 
     public void SetBlendedData(string blendedData){
         // Debug.Log("From Unity ");
@@ -137,11 +144,15 @@ public class BlendedOperations : MonoBehaviour
 
                 string textCompValue = (textField.GetComponent<Text>()) ? textField.GetComponent<Text>().text : textField.GetComponent<TMP_Text>().text;
 
+                if(textField.GetComponent<Text>() != null){
+                    textField.GetComponent<Text>().raycastTarget = true;
+                }
+
                 if(textField.gameObject.GetComponent<Button>() == null){
-                    // Debug.Log("In if condition");
+                    Debug.Log("In if condition " + textCompValue, textField.gameObject);
                     textField.gameObject.AddComponent<Button>().onClick.AddListener(() => { SendDataToSylabify(textCompValue); });
                 }else{
-                    Debug.Log("In else condition");
+                    Debug.Log("In else condition " + textCompValue, textField.gameObject);
                     textField.gameObject.GetComponent<Button>().onClick.AddListener(() => { SendDataToSylabify(textCompValue); });
                 }
             }
