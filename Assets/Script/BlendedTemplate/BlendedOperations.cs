@@ -16,19 +16,20 @@ public class BlendedOperations : MonoBehaviour
             instance = this;
         }
     }
-    
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space)){
-            Debug.Log(ScoreManager.instance.GetActivityData());
+
+    Transform FindGameObject(GameObject rootObject, string gameObjectName){
+        if(gameObjectName == rootObject.name){
+            return rootObject.transform;
         }
+        for(int i=0; i<rootObject.transform.childCount; i++){
+            Transform findObject = FindGameObject(rootObject.transform.GetChild(i).gameObject, gameObjectName);
+            if(findObject != null) return findObject;
+        }
+        return null;
     }
+#region EXTERNAL_JS_INVOKE_FUNCTIONS
 
     public void SetBlendedData(string blendedData){
-        // Debug.Log("From Unity ");
-        // Debug.Log(blendedData);
-        // Debug.Log("------------------------------------------------------------");
-        // JSONParser parser = new JSONParser();
         blendedData = blendedData.Replace("\"[", "[").Replace("]\"", "]").Replace("\\", "");
         JSONNode blendedParsedData = JSON.Parse(blendedData);
 
@@ -84,21 +85,10 @@ public class BlendedOperations : MonoBehaviour
         }
         blendedData += "]";
 
-        Application.ExternalCall("send_blended_data", blendedData);
+        bridge.SendBlendedContentData(blendedData);
         // Debug.Log("Blended Data : "+blendedData);
     }
 
-    Transform FindGameObject(GameObject rootObject, string gameObjectName){
-        if(gameObjectName == rootObject.name){
-            return rootObject.transform;
-        }
-        for(int i=0; i<rootObject.transform.childCount; i++){
-            Transform findObject = FindGameObject(rootObject.transform.GetChild(i).gameObject, gameObjectName);
-            if(findObject != null) return findObject;
-        }
-        return null;
-    }
-#region EXTERNAL_JS_INVOKE_FUNCTIONS
 
     // Called from external JS
     public void GetActivityScoreData(){

@@ -22,4 +22,8 @@ mergeInto(LibraryManager.library, {
         SetActivityScoreData(UTF8ToString(scoreData));
     }
 
+    PassBlendedContentDataToDB : function(blendedContentData){
+        send_blended_data(blendedContentData);
+    }
+
 });
